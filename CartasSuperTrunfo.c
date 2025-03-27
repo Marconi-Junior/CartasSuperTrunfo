@@ -9,6 +9,7 @@ int main() {
   float area1, area2;
   float pib1, pib2;
   int ptTuristico1, ptTuristico2;
+  
   //Cadastro da primeira carta.
   printf("Cadastre a primeira carta:\n");
   printf("Digite a letra que representa o estado:\n");
@@ -25,7 +26,9 @@ int main() {
   scanf("%f", &pib1);
   printf("Digite o número de pontos turísticos:\n");
   scanf("%d", &ptTuristico1);
+  //Impressão da primeira carta
   printf("\nCarta: 01\nEstado: %c\nCódigo: %s\nNome da Cidade: %s\nPopulação: %d\nÁrea: %.2f Km²\nPIB: %.2f bilhões de reais\nNúmero de Pontos Turísticos: %d\n", estado1, codigo1, nomeCidade1, populacao1, area1, pib1, ptTuristico1);
+  
   //Cadastro da segunda carta.
   printf("\nCadastre a segunda carta:\n");
   printf("Digite a letra que representa o estado:\n");
@@ -42,7 +45,7 @@ int main() {
   scanf("%f", &pib2);
   printf("Digite o número de pontos turísticos:\n");
   scanf("%d", &ptTuristico2);
-
+  //Impressão da segunda carta
   printf("\nCarta: 02\nEstado: %c\nCódigo: %s\nNome da Cidade: %s\nPopulação: %d\nÁrea: %.2f Km²\nPIB: %.2f bilhões de reais\nNúmero de Pontos Turísticos: %d\n", estado2, codigo2, nomeCidade2, populacao2, area2, pib2, ptTuristico2);
   
 return 0;
